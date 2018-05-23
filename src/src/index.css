@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #f1f1f1;
+}
+
+svg {
+  max-height:100vh;
+}
+path {
+  fill: #fff;
+  stroke: #000
+}
+
+
+#leftStick.right  {
+  transform: translate(2%,0);
+}
+#leftStick.right.top  {
+  transform: translate(2%,-2%);
+}
+#leftStick.top  {
+  transform: translate(0%,-2%);
+}
+#leftStick.top.left  {
+  transform: translate(-2%,-2%);
+}
+#leftStick.left  {
+  transform: translate(-2%,0%);
+}
+#leftStick.left.bottom  {
+  transform: translate(-2%,2%);
+}
+#leftStick.bottom  {
+  transform: translate(0%,2%);
+}
+#leftStick.bottom.right {
+  transform: translate(2%,2%);
+}
+#leftStick {
+  transition: transform 100ms;
+  transform: translate(0,0);
+}
+.active {
+  fill: #659cf7;
+
+  filter: url(#shadow);
+}
+.active path {
+  fill: #659cf7;
+}
+.center {
+  height:100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+button {
+  flex:none;
+  font-size: 1rem;
+  padding:5px 15px;
+  color:#fff;
+  border: none;
+  background:rgba(0,0,0,0.7);
+  border-bottom: 4px solid #000;
+  margin: 0 2px;
+}
+
+button:hover {
+  background:rgba(0,0,0,0.6);
+  color:#fff;
+  cursor:pointer;
+}

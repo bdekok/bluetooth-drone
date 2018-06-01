@@ -21,6 +21,7 @@ Left controller stick : Stearing
 Left up and down button : Up and down
 O Button : Land
 X Button : Lift off 
+▲ Button : Flip
 ```
 ## Thanks to
 

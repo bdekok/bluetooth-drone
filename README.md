@@ -6,9 +6,13 @@ Please note that the firmware of the Parrot Minidrone has to be on 2.1.7 for now
 
 ![Flying drone through our office](https://raw.githubusercontent.com/bdekok/bluetooth-drone/master/drone.gif)
 
-## to Run 
+## To Run 
 
 1. npm i 
 2. npm run start
 3. open and connect PS4 controller &amp; drone;
 
+## Thanks to
+
+* [Niels Leenheer's awesome Bluetooth Rocks project & presentation](https://github.com/BluetoothRocks/Drone)
+* [Poshaughnessy for the original work on the drone](https://github.com/poshaughnessy/web-bluetooth-parrot-drone)

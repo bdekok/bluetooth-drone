@@ -102,6 +102,7 @@ export class ParrotDrone {
       filters: [
         {namePrefix: 'RS_'},
         {namePrefix: 'Mars_'},
+        {namePrefix: 'Mambo_'},
         {namePrefix: 'Travis_'}
       ],
       optionalServices: [
